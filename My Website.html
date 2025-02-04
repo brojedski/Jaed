@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaed Grande Delosa - Portfolio</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body Styling */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* WhatsApp Button */
+    .whatsapp-button {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #25D366; /* WhatsApp green */
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .whatsapp-button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .whatsapp-button:active {
+      transform: scale(0.95);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Header Styling */
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #b3b3b3;
+    }
+
+    /* Portfolio Section */
+    .portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .project-button {
+      background: linear-gradient(145deg, #3a3a3a, #2e2e2e);
+      border: none;
+      border-radius: 10px;
+      padding: 20px 40px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #ffffff;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5), -5px -5px 15px rgba(255, 255, 255, 0.1);
+    }
+
+    .project-button:hover {
+      transform: scale(1.05);
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6), -10px -10px 20px rgba(255, 255, 255, 0.2);
+    }
+
+    .project-button:active {
+      transform: scale(0.95);
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), -2px -2px 5px rgba(255, 255, 255, 0.1);
+    }
+
+    /* Footer Styling */
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #b3b3b3;
+    }
+
+    footer a {
+      color: #4caf50;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/639810848049" target="_blank" class="whatsapp-button">
+    <i style="font-family: Arial, sans-serif;">&#9742;</i> <!-- Phone icon -->
+  </a>
+
+  <!-- Header -->
+  <header>
+    <h1>Jaed Delosa</h1>
+    <p>My Portfolio of Works and Projects</p>
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="portfolio">
+    <a href="https://jaeddelosa.journoportfolio.com/" target="_blank" class="project-button">Writing Portfolio</a>
+    <a href="https://medium.com/@jaedgrandedelosa" target="_blank" class="project-button">Medium</a>
+    <a href="https://manta-ray.tiiny.site/" target="_blank" class="project-button">Manta Ray</a>
+    <a href="http://whereami.statichost.app/" target="_blank" class="project-button">Where Am I by c0rg1</a>
+    <a href="https://freevaresources.static.domains/virtualassistantwebsite" target="_blank" class="project-button">Virtual Assistant Free Resources</a>
+    <a href="https://b2bemailrater.statichost.app/" target="_blank" class="project-button">B2B Email Rater</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2023 Jaed Grande Delosa | Designed with ❤️ by <a href="https://jaedd.my.canva.site/nichepresso" target="_blank">Nichepresso</a>
+  </footer>
+</body>
+</html>
